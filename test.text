@@ -1,0 +1,9 @@
+This is my first commit!
+
+And here we go with commit no.2
+
+<<<<<<< HEAD
+many commits
+=======
+conflict
+>>>>>>> dev
