@@ -53,14 +53,3 @@ print(f"\nOriginal Message: {user_text}")
 print(f"Shift Amount: {user_shift}")
 print(f"Mode: {'Encode' if mode_choice == 'e' else 'Decode'}")
 print(f"Transformed Message: {result_message}")
-
-print("\n--- Example: Encoding and then Decoding ---")
-example_encode_text = "tim is trying"
-example_encode_shift = 1
-encoded_message = caesar_cipher_transform(example_encode_text, example_encode_shift)
-print(f"Original: '{example_encode_text}', Shift: {example_encode_shift}, Encoded: '{encoded_message}'")
-
-example_decode_text = encoded_message
-example_decode_shift = 1
-decoded_message = caesar_cipher_transform(example_decode_text, -example_decode_shift)
-print(f"Encoded: '{example_decode_text}', Shift: {example_decode_shift}, Decoded: '{decoded_message}'")
